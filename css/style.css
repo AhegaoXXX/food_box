@@ -1,0 +1,119 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.3em;
+}
+.container{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+a{
+    color: #000000;
+}
+
+.header-inner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    color: #808080;
+    align-items: center;
+    text-transform: uppercase;
+}
+.header-inner-burger{
+    display: flex;
+    flex-direction: row;
+}
+.header-inner-burger li{
+    padding: 0 26px;
+}
+
+.user{
+    width: 32px;
+    height: 39px;
+}
+.truck{
+    width: 32px;
+    height: 39px;
+}
+.coin-dollar{
+    width: 32px;
+    height: 39px;
+}
+.headphones{
+    width: 32px;
+    height: 39px;
+}
+.gift{
+    width: 32px;
+    height: 39px;
+}
+
+.nav{
+    
+    background: #66BA02;
+    text-transform: uppercase;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.nav a{
+    padding: 0 26px;
+    color: white;
+    
+}
+.nav-burger{
+    margin-top: 15px;
+    display: flex;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+}
+.card{
+    align-items: center;
+    border: none;
+    padding: 60px 5px 0;
+}
+.card p{
+    padding: 0 60px;
+}
+
+.col{
+    justify-content: space-between;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+.col:hover .col_text{
+    bottom: 0;
+}
+.col_img img{
+    width: 100%;
+    display: block;
+}
+.col_text{
+    background:#66BA02;
+    opacity: 70%;
+    color: white;
+    text-align: center;
+    width: 92.5%;
+    height: 600px;
+    position: absolute;
+    bottom: -500px;
+    transition: 1s;
+}
+.col_text p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10%;
+}
+.captions{
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 50%;  
+}
